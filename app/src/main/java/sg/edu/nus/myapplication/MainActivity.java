@@ -1,5 +1,6 @@
 package sg.edu.nus.myapplication;
 
+import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.hardware.Camera;
@@ -31,7 +32,7 @@ import org.opencv.imgproc.Imgproc;
 
 import java.io.File;
 
-public class MainActivity extends FragmentActivity
+public class MainActivity extends Activity
         implements CameraBridgeViewBase.CvCameraViewListener2 {
 
     // A tag for log output.
